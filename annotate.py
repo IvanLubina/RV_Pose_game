@@ -76,7 +76,7 @@ def main():
     print("Annotation tool — click each joint in the order shown.")
     print("U = undo last  |  S = save  |  ESC = quit\n")
 
-    cv2.namedWindow("Annotate")
+    cv2.namedWindow("Annotate", cv2.WINDOW_NORMAL)
     cv2.setMouseCallback("Annotate", click_handler)
     update_display()
 

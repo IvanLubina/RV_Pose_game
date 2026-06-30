@@ -147,7 +147,7 @@ def input_player_name_cv2(w, h):
     """Displays an input panel inside the OpenCV window to type your name."""
     name = ""
     # Ensure window exists to capture immediate keyboard input
-    cv2.namedWindow("Pose Game")
+    cv2.namedWindow("Pose Game", cv2.WINDOW_NORMAL)
 
     while True:
         panel = np.zeros((h, w, 3), dtype=np.uint8)
