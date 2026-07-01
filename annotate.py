@@ -63,14 +63,18 @@ def main():
     global base_image, current_idx
 
     if len(sys.argv) < 2:
-        image_path = "dog.jpg" 
-        print(f"No image provided. Falling back to default: {image_path}")
+        image_name = "dog.jpg" 
+        print(f"No image provided. Falling back to default: {image_name}")
     else:
-        image_path = sys.argv[1]
+        # User can just pass "dog.jpg" instead of the whole path
+        image_name = sys.argv[1]
+
+    # Ensure we look inside the 'images' folder
+    image_path = os.path.join("images", os.path.basename(image_name))
 
     base_image = cv2.imread(image_path)
     if base_image is None:
-        print(f"Could not load image: {image_path}")
+        print(f"Could not load image from: {image_path}")
         return
 
     print("Annotation tool — click each joint in the order shown.")
@@ -84,9 +88,16 @@ def main():
         key = cv2.waitKey(20) & 0xFF
 
         if key == ord('s'):
-            out_path = os.path.splitext(image_path)[0] + "_annotations.json"
+            # Strip the extension and save inside the 'annotations' directory
+            base_filename = os.path.splitext(os.path.basename(image_path))[0]
+            out_path = os.path.join("annotations", f"{base_filename}_annotations.json")
+            
+            # Ensure the annotations directory actually exists
+            os.makedirs("annotations", exist_ok=True)
+            
+            # Save just the basename of the image inside the JSON to keep it clean
             with open(out_path, 'w') as f:
-                json.dump({"image": image_path, "landmarks": annotations}, f, indent=2)
+                json.dump({"image": os.path.basename(image_path), "landmarks": annotations}, f, indent=2)
             print(f"\nSaved annotations to: {out_path}")
             break
 
@@ -103,7 +114,5 @@ def main():
             break
 
     cv2.destroyAllWindows()
-
-
 if __name__ == "__main__":
     main()

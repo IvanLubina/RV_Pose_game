@@ -133,13 +133,19 @@ def show_leaderboard(w, h, scores, player_name, player_score):
 
 
 def load_annotation_files(arg):
+    # If a folder name like "annotations" is passed, read everything inside it
     if os.path.isdir(arg):
         return sorted(glob.glob(os.path.join(arg, "*_annotations.json")))
+    
+    if not os.path.dirname(arg) and not os.path.exists(arg):
+        fallback_path = os.path.join("annotations", arg)
+        if os.path.exists(fallback_path):
+            return [fallback_path]
+            
     with open(arg) as f:
         data = json.load(f)
     if isinstance(data, list):
-        base = os.path.dirname(arg)
-        return [p if os.path.isabs(p) else os.path.join(base, p) for p in data]
+        return [os.path.join("annotations", p) if not os.path.isabs(p) else p for p in data]
     return [arg]
 
 
@@ -226,9 +232,8 @@ def main():
         with open(ann_file) as f:
             data = json.load(f)
 
-        image_path = data["image"]
-        if not os.path.isabs(image_path):
-            image_path = os.path.join(os.path.dirname(ann_file), os.path.basename(image_path))
+        image_name = os.path.basename(data["image"])
+        image_path = os.path.join("images", image_name)
 
         animal_img = cv2.imread(image_path)
         if animal_img is None:
