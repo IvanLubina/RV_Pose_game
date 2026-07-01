@@ -28,6 +28,19 @@ The scoring system in 'pose_game.py' is designed to reward both precision and co
 When the round ends, a final score is calculated by taking your best match count and applying a multiplier based on your accuracy ratio. Achieving a perfect 100% match across all joints grants a x2.0 point multiplier, while matching at least half of the required joints awards a x1.5 multiplier. Any performance below the 50% accuracy threshold receives a standard x1.0 multiplier. These points accumulate across all loaded images to form your final total score. At the end of the game, this score is compared against 'highscores.json', and if it is high enough, your name will be permanently saved into the local Top 5 leaderboard.
 
 ---
+## 📁 Repository Directory Structure
+To ensure the scripts track path references correctly, maintain the following directory tree layout in your workspace root:
+
+```text
+├── annotations/             # Saved *.json level configurations target folder
+├── images/                  # Drop your *.jpg image backdrops here
+├── test.py                  # Pipeline tracking diagnostic tool
+├── annotate.py              # Landmark design utility
+├── pose_game.py             # Main game logic controller
+├── playlist.json            # Default game round playlist mapping
+└── pose_landmarker_lite.task # Automatically downloaded pipeline asset
+```
+---
 
 ## 🚀 Installation & Requirements
 
@@ -35,4 +48,4 @@ Ensure you have Python 3.8+ installed. You can install all necessary prerequisit
 
 ```bash
 pip install opencv-python mediapipe numpy
-
+```
