@@ -1,0 +1,14 @@
+{
+  "image": "flamingo.png",
+  "landmarks": {
+    "0": { "x": 0.245, "y": 0.235, "name": "Beak/Nose" },
+    "11": { "x": 0.445, "y": 0.380, "name": "Left Shoulder (Wing base)" },
+    "12": { "x": 0.480, "y": 0.420, "name": "Right Shoulder (Wing base)" },
+    "15": { "x": 0.900, "y": 0.490, "name": "Left Knee (Retracted)" },
+    "16": { "x": 0.580, "y": 0.490, "name": "Left Foot (Retracted)" },
+    "23": { "x": 0.535, "y": 0.435, "name": "Left Hip" },
+    "24": { "x": 0.540, "y": 0.450, "name": "Right Hip" },
+    "27": { "x": 0.535, "y": 0.650, "name": "Right Ankle (Joint)" },
+    "28": { "x": 0.535, "y": 0.880, "name": "Right Foot (Weight-bearing)" }
+  }
+}

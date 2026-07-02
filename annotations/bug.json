@@ -1,0 +1,14 @@
+{
+  "image": "bug.png",
+  "landmarks": {
+    "0": { "x": 0.505, "y": 0.285, "name": "Head" },
+    "11": { "x": 0.400, "y": 0.335, "name": "Left Shoulder (Joint)" },
+    "12": { "x": 0.610, "y": 0.335, "name": "Right Shoulder (Joint)" },
+    "15": { "x": 0.165, "y": 0.080, "name": "Left Claw" },
+    "16": { "x": 0.840, "y": 0.080, "name": "Right Claw" },
+    "23": { "x": 0.430, "y": 0.650, "name": "Left Mid-Hip" },
+    "24": { "x": 0.515, "y": 0.650, "name": "Right Mid-Hip" },
+    "27": { "x": 0.270, "y": 0.985, "name": "Left Rear Foot" },
+    "28": { "x": 0.500, "y": 0.970, "name": "Right Rear Foot" }
+  }
+}

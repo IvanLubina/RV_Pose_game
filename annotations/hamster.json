@@ -1,0 +1,10 @@
+{
+  "image": "hamster.png",
+  "landmarks": {
+    "0": { "x": 0.510, "y": 0.540, "name": "Nose" },
+    "11": { "x": 0.380, "y": 0.620, "name": "Right Shoulder" },
+    "12": { "x": 0.620, "y": 0.630, "name": "Left Shoulder" },
+    "15": { "x": 0.380, "y": 0.720, "name": "Right Wrist/Paw" },
+    "16": { "x": 0.580, "y": 0.780, "name": "Left Wrist/Paw" }
+  }
+}

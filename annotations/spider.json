@@ -1,0 +1,14 @@
+{
+  "image": "spider.png",
+  "landmarks": {
+    "0": { "x": 0.530, "y": 0.500, "name": "Head" },
+    "11": { "x": 0.650, "y": 0.620, "name": "Left Shoulder" },
+    "12": { "x": 0.500, "y": 0.650, "name": "Right Shoulder" },
+    "15": { "x": 0.890, "y": 0.100, "name": "Left Leg Tip" },
+    "16": { "x": 0.070, "y": 0.250, "name": "Right Leg Tip" },
+    "23": { "x": 0.630, "y": 0.650, "name": "Left Mid-Hip" },
+    "24": { "x": 0.550, "y": 0.700, "name": "Right Mid-Hip" },
+    "27": { "x": 0.740, "y": 0.630, "name": "Left Rear Leg" },
+    "28": { "x": 0.640, "y": 0.850, "name": "Right Rear Leg" }
+  }
+}

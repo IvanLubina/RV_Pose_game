@@ -1,0 +1,13 @@
+{
+  "image": "meerkat.png",
+  "landmarks": {
+    "0": { "x": 0.200, "y": 0.300, "name": "Nose" },
+    "11": { "x": 0.220, "y": 0.450, "name": "Right Shoulder" },
+    "12": { "x": 0.330, "y": 0.470, "name": "Left Shoulder" },
+    "15": { "x": 0.330, "y": 0.630, "name": "Right Wrist/Paw" },
+    "16": { "x": 0.450, "y": 0.530, "name": "Left Wrist/Paw" },
+    "23": { "x": 0.550, "y": 0.630, "name": "Left Hip" },
+    "24": { "x": 0.550, "y": 0.730, "name": "Right Hip" },
+    "27": { "x": 0.770, "y": 0.680, "name": "Left Ankle" }
+  }
+}

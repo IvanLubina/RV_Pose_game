@@ -1,0 +1,14 @@
+{
+  "image": "horse.png",
+  "landmarks": {
+    "0": { "x": 0.696, "y": 0.206, "name": "Nose" },
+    "11": { "x": 0.652, "y": 0.452, "name": "Left Shoulder" },
+    "12": { "x": 0.573, "y": 0.454, "name": "Right Shoulder" },
+    "15": { "x": 0.797, "y": 0.610, "name": "Left Wrist" },
+    "16": { "x": 0.774, "y": 0.638, "name": "Right Wrist" },
+    "23": { "x": 0.397, "y": 0.579, "name": "Left Hip" },
+    "24": { "x": 0.331, "y": 0.579, "name": "Right Hip" },
+    "27": { "x": 0.510, "y": 0.840, "name": "Left Ankle" },
+    "28": { "x": 0.290, "y": 0.863, "name": "Right Ankle" }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "image": "squirrel.png",
+  "landmarks": {
+    "0": { "x": 0.320, "y": 0.340, "name": "Nose" },
+    "11": { "x": 0.650, "y": 0.280, "name": "Left Shoulder" },
+    "12": { "x": 0.470, "y": 0.300, "name": "Right Shoulder" },
+    "15": { "x": 0.320, "y": 0.500, "name": "Left Wrist/Paw" },
+    "16": { "x": 0.120, "y": 0.440, "name": "Right Wrist/Paw" },
+    "23": { "x": 0.680, "y": 0.750, "name": "Left Hip" },
+    "24": { "x": 0.580, "y": 0.730, "name": "Right Hip" },
+    "27": { "x": 0.650, "y": 0.880, "name": "Left Ankle" },
+    "28": { "x": 0.550, "y": 0.880, "name": "Right Ankle" }
+  }
+}

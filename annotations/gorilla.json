@@ -1,0 +1,14 @@
+{
+  "image": "gorilla.png",
+  "landmarks": {
+    "0": { "x": 0.495, "y": 0.320, "name": "Nose" },
+    "11": { "x": 0.700, "y": 0.280, "name": "Left Shoulder" },
+    "12": { "x": 0.400, "y": 0.280, "name": "Right Shoulder" },
+    "15": { "x": 0.950, "y": 0.700, "name": "Left Wrist" },
+    "16": { "x": 0.140, "y": 0.700, "name": "Right Wrist" },
+    "23": { "x": 0.650, "y": 0.700, "name": "Left Hip" },
+    "24": { "x": 0.450, "y": 0.700, "name": "Right Hip" },
+    "27": { "x": 0.850, "y": 0.850, "name": "Left Ankle" },
+    "28": { "x": 0.200, "y": 0.800, "name": "Right Ankle" }
+  }
+}

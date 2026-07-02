@@ -1,0 +1,12 @@
+{
+  "image": "owl.png",
+  "landmarks": {
+    "0": { "x": 0.770, "y": 0.350, "name": "Beak/Nose" },
+    "11": { "x": 0.700, "y": 0.450, "name": "Left Shoulder" },
+    "12": { "x": 0.420, "y": 0.400, "name": "Right Shoulder" },
+    "15": { "x": 0.680, "y": 0.980, "name": "Left Talon" },
+    "16": { "x": 0.210, "y": 0.980, "name": "Right Talon" },
+    "23": { "x": 0.600, "y": 0.650, "name": "Left Hip" },
+    "24": { "x": 0.420, "y": 0.550, "name": "Right Hip" }
+  }
+}

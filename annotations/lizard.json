@@ -1,0 +1,14 @@
+{
+  "image": "lizard.png",
+  "landmarks": {
+    "0": { "x": 0.300, "y": 0.030, "name": "Nose" },
+    "11": { "x": 0.440, "y": 0.450, "name": "Left Shoulder" },
+    "12": { "x": 0.300, "y": 0.440, "name": "Right Shoulder" },
+    "15": { "x": 0.050, "y": 0.430, "name": "Right Wrist/Hand" },
+    "16": { "x": 0.740, "y": 0.430, "name": "Left Wrist/Hand" },
+    "23": { "x": 0.220, "y": 0.740, "name": "Right Hip" },
+    "24": { "x": 0.530, "y": 0.740, "name": "Left Hip" },
+    "27": { "x": 0.180, "y": 0.820, "name": "Right Foot" },
+    "28": { "x": 0.690, "y": 0.830, "name": "Left Foot" }
+  }
+}

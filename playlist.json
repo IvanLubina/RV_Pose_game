@@ -1,4 +1,18 @@
 [
-  "dog_annotations.json",
-  "horse_small_annotations.json"
+  "bug.json",
+  "eagle.json",
+  "flamingo.json",
+  "gorilla.json",
+  "hamster.json",
+  "horse.json",
+  "liger.json",
+  "lion.json",
+  "lizard.json",
+  "meerkat.json",
+  "otter.json",
+  "owl.json",
+  "penguin.json",
+  "rio.json",
+  "spider.json",
+  "squirrel.json"
 ]

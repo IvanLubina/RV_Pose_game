@@ -1,0 +1,14 @@
+{
+  "image": "/lion.png",
+  "landmarks": {
+    "0": { "x": 0.540, "y": 0.080, "name": "Nose" },
+    "11": { "x": 0.400, "y": 0.280, "name": "Right Shoulder" },
+    "12": { "x": 0.600, "y": 0.300, "name": "Left Shoulder" },
+    "15": { "x": 0.470, "y": 0.150, "name": "Right Wrist/Paw" },
+    "16": { "x": 0.810, "y": 0.260, "name": "Left Wrist/Paw" },
+    "23": { "x": 0.300, "y": 0.700, "name": "Left Hip" },
+    "24": { "x": 0.230, "y": 0.700, "name": "Right Hip" },
+    "27": { "x": 0.360, "y": 0.820, "name": "Left Ankle" },
+    "28": { "x": 0.160, "y": 0.900, "name": "Right Ankle" }
+  }
+}

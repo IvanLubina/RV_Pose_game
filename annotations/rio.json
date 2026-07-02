@@ -1,0 +1,14 @@
+{
+  "image": "rio.png",
+  "landmarks": {
+    "0": { "x": 0.420, "y": 0.210, "name": "Beak/Nose" },
+    "11": { "x": 0.580, "y": 0.470, "name": "Left Shoulder" },
+    "12": { "x": 0.420, "y": 0.470, "name": "Right Shoulder" },
+    "15": { "x": 0.770, "y": 0.230, "name": "Left Wrist/Hand" },
+    "16": { "x": 0.280, "y": 0.650, "name": "Right Wrist/Hand" },
+    "23": { "x": 0.430, "y": 0.670, "name": "Left Hip" },
+    "24": { "x": 0.380, "y": 0.670, "name": "Right Hip" },
+    "27": { "x": 0.450, "y": 0.850, "name": "Left Ankle" },
+    "28": { "x": 0.350, "y": 0.850, "name": "Right Ankle" }
+  }
+}
