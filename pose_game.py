@@ -12,7 +12,7 @@ import numpy as np
 
 MODEL_PATH = "pose_landmarker_lite.task"
 MATCH_THRESHOLD = 0.12
-ROUND_DURATION = 30
+ROUND_DURATION = 10
 HIGHSCORES_FILE = "highscores.json"
 TOP_N = 5
 
@@ -200,7 +200,6 @@ def main():
         print("No annotation files found.")
         return
 
-    # Fallback default canvas geometry for resolution before camera configuration
     cam_w, cam_h = 640, 480
 
     if name_arg:
@@ -218,7 +217,6 @@ def main():
         print("Error: Could not open webcam.")
         return
     
-    # Refresh correct resolution after camera spins up
     cam_w = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
     cam_h = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
     if cam_w == 0 or cam_h == 0:
@@ -251,6 +249,7 @@ def main():
             ret, frame = cap.read()
             if not ret:
                 break
+            frame = cv2.flip(frame, 1)
 
             elapsed = time.time() - start_time
             remaining = max(0.0, ROUND_DURATION - elapsed)
