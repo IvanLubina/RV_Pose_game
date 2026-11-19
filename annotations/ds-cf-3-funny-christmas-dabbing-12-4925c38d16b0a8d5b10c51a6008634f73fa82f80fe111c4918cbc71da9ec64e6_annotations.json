@@ -1,0 +1,50 @@
+{
+  "image": "ds-cf-3-funny-christmas-dabbing-12-4925c38d16b0a8d5b10c51a6008634f73fa82f80fe111c4918cbc71da9ec64e6.jpg",
+  "landmarks": {
+    "0": {
+      "x": 0.39,
+      "y": 0.39,
+      "name": "Nose"
+    },
+    "11": {
+      "x": 0.56,
+      "y": 0.32,
+      "name": "Left Shoulder"
+    },
+    "12": {
+      "x": 0.41,
+      "y": 0.5,
+      "name": "Right Shoulder"
+    },
+    "15": {
+      "x": 0.73,
+      "y": 0.15,
+      "name": "Left Wrist"
+    },
+    "16": {
+      "x": 0.355,
+      "y": 0.43,
+      "name": "Right Wrist"
+    },
+    "23": {
+      "x": 0.57,
+      "y": 0.7,
+      "name": "Left Hip"
+    },
+    "24": {
+      "x": 0.42,
+      "y": 0.7,
+      "name": "Right Hip"
+    },
+    "27": {
+      "x": 0.64,
+      "y": 0.88,
+      "name": "Left Ankle"
+    },
+    "28": {
+      "x": 0.4,
+      "y": 0.88,
+      "name": "Right Ankle"
+    }
+  }
+}

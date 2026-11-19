@@ -17,8 +17,9 @@ highscores.json, shows the leaderboard and then goes back to the demo.
 Demo scores are never saved.
 
 Usage:
-    python pose_game.py                           # levels from playlist.json
-    python pose_game.py playlist_2.json           # another playlist
+    python pose_game.py                           # every level in annotations/
+    python pose_game.py playlist.json             # the animal playlist
+    python pose_game.py playlist_2.json           # shorter animal playlist
     python pose_game.py annotations_animals       # every level in a folder
     python pose_game.py --fullscreen              # start in fullscreen
 
@@ -41,11 +42,11 @@ import threading
 import time
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-ANNOTATION_DIRS = ["annotations_animals", "annotations"]
+ANNOTATION_DIRS = ["annotations", "annotations_animals"]
 IMAGE_DIRS = [os.path.join("images", "animals"), "images"]
 HIGHSCORES_FILE = os.path.join(BASE_DIR, "highscores.json")
 MODEL_PATH = os.path.join(BASE_DIR, "pose_landmarker_lite.task")
-DEFAULT_PLAYLIST = "playlist.json"
+DEFAULT_LEVELS = "annotations"          # folder (or playlist) played by default
 CAMERA_INDEX = 0
 
 WINDOW = "Pose Game"
@@ -864,7 +865,7 @@ def start_game(display, frame, levels, name, loader):
 
 def run():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
-    levels = load_levels(args[0] if args else DEFAULT_PLAYLIST)
+    levels = load_levels(args[0] if args else DEFAULT_LEVELS)
     if not levels:
         print("No levels found.")
         return
