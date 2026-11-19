@@ -47,7 +47,7 @@ ANNOTATION_DIRS = ["annotations", "annotations_animals"]
 IMAGE_DIRS = [os.path.join("images", "animals"), "images"]
 HIGHSCORES_FILE = os.path.join(BASE_DIR, "highscores.json")
 MODEL_PATH = os.path.join(BASE_DIR, "pose_landmarker_lite.task")
-DEFAULT_LEVELS = "playlist_christmas.json"   # playlist (or folder) played by default
+DEFAULT_LEVELS = "playlist.json"   # Christmas playlist (or a folder) played by default
 CAMERA_INDEX = 0
 
 WINDOW = "Pose Game"

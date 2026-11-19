@@ -1,0 +1,50 @@
+{
+  "image": "christmas_reindeer_yoga.png",
+  "landmarks": {
+    "0": {
+      "x": 0.5,
+      "y": 0.23,
+      "name": "Nose"
+    },
+    "11": {
+      "x": 0.57,
+      "y": 0.36,
+      "name": "Left Shoulder"
+    },
+    "12": {
+      "x": 0.43,
+      "y": 0.36,
+      "name": "Right Shoulder"
+    },
+    "15": {
+      "x": 0.515,
+      "y": 0.145,
+      "name": "Left Wrist"
+    },
+    "16": {
+      "x": 0.485,
+      "y": 0.145,
+      "name": "Right Wrist"
+    },
+    "23": {
+      "x": 0.54,
+      "y": 0.61,
+      "name": "Left Hip"
+    },
+    "24": {
+      "x": 0.46,
+      "y": 0.61,
+      "name": "Right Hip"
+    },
+    "27": {
+      "x": 0.5,
+      "y": 0.77,
+      "name": "Left Ankle"
+    },
+    "28": {
+      "x": 0.465,
+      "y": 0.925,
+      "name": "Right Ankle"
+    }
+  }
+}

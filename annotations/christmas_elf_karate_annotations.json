@@ -1,0 +1,50 @@
+{
+  "image": "christmas_elf_karate.png",
+  "landmarks": {
+    "0": {
+      "x": 0.649,
+      "y": 0.241,
+      "name": "Nose"
+    },
+    "11": {
+      "x": 0.694,
+      "y": 0.383,
+      "name": "Left Shoulder"
+    },
+    "12": {
+      "x": 0.567,
+      "y": 0.343,
+      "name": "Right Shoulder"
+    },
+    "15": {
+      "x": 0.7,
+      "y": 0.29,
+      "name": "Left Wrist"
+    },
+    "16": {
+      "x": 0.42,
+      "y": 0.28,
+      "name": "Right Wrist"
+    },
+    "23": {
+      "x": 0.596,
+      "y": 0.601,
+      "name": "Left Hip"
+    },
+    "24": {
+      "x": 0.524,
+      "y": 0.579,
+      "name": "Right Hip"
+    },
+    "27": {
+      "x": 0.62,
+      "y": 0.89,
+      "name": "Left Ankle"
+    },
+    "28": {
+      "x": 0.23,
+      "y": 0.54,
+      "name": "Right Ankle"
+    }
+  }
+}

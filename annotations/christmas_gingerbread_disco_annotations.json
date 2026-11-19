@@ -1,0 +1,50 @@
+{
+  "image": "christmas_gingerbread_disco.png",
+  "landmarks": {
+    "0": {
+      "x": 0.48,
+      "y": 0.202,
+      "name": "Nose"
+    },
+    "11": {
+      "x": 0.54,
+      "y": 0.323,
+      "name": "Left Shoulder"
+    },
+    "12": {
+      "x": 0.401,
+      "y": 0.34,
+      "name": "Right Shoulder"
+    },
+    "15": {
+      "x": 0.696,
+      "y": 0.155,
+      "name": "Left Wrist"
+    },
+    "16": {
+      "x": 0.445,
+      "y": 0.52,
+      "name": "Right Wrist"
+    },
+    "23": {
+      "x": 0.54,
+      "y": 0.575,
+      "name": "Left Hip"
+    },
+    "24": {
+      "x": 0.46,
+      "y": 0.585,
+      "name": "Right Hip"
+    },
+    "27": {
+      "x": 0.58,
+      "y": 0.89,
+      "name": "Left Ankle"
+    },
+    "28": {
+      "x": 0.36,
+      "y": 0.86,
+      "name": "Right Ankle"
+    }
+  }
+}

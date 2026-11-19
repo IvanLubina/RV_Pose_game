@@ -43,7 +43,7 @@ Run it once before the first game: `pose_game.py` needs the model file, and with
 3. The top left corner says which joint to click next. Left-click on that spot in the image.
 4. **U** undoes the last point. When all joints are placed, press **S** to save. **ESC** quits without saving.
 
-The level is saved as `annotations/<image name>_annotations.json`. To play it, add its file name to a playlist (for example `playlist_christmas.json`, which the game plays by default), or run `python pose_game.py annotations` to play every level in that folder.
+The level is saved as `annotations/<image name>_annotations.json`. To play it, add its file name to a playlist (for example `playlist.json`, the Christmas playlist the game plays by default), or run `python pose_game.py annotations` to play every level in that folder.
 
 Things to keep in mind:
 - **Which joints are marked** is set by the `LANDMARKS_TO_ANNOTATE` list at the top of `annotate.py`. Comment or uncomment lines to choose them. More joints make a level harder. The included levels use 9 joints: nose, both shoulders, both wrists, both hips and both ankles.
@@ -59,7 +59,7 @@ python pose_game.py [levels] [--fullscreen]
 
 | Command | What it plays |
 | --- | --- |
-| `python pose_game.py` | the Christmas playlist (`playlist_christmas.json`, 3 levels) |
+| `python pose_game.py` | the Christmas playlist (`playlist.json`, 9 levels) |
 | `python pose_game.py annotations` | every level in the `annotations` folder |
 | `python pose_game.py playlist_1.json` | the 16 animal levels |
 | `python pose_game.py playlist_2.json` | a shorter set of 5 animal levels |
@@ -128,17 +128,17 @@ Level files are looked up in `annotations/` and `annotations_animals/`, and imag
 ## 📁 Repository directory structure
 
 ```text
-├── annotations/              # annotate.py saves levels here (3 Christmas levels)
+├── annotations/              # annotate.py saves levels here (9 Christmas levels)
 ├── annotations_animals/      # 16 animal levels used by the playlists
 ├── images/                   # Images for annotate.py and the Christmas levels
 │   └── animals/              # Images for the animal levels
 ├── test.py                   # Camera and model check, downloads the model
 ├── annotate.py               # Level editor
 ├── pose_game.py              # The game: looping demo + webcam game
-├── playlist_christmas.json   # Christmas levels (played by default)
+├── playlist.json             # Christmas levels (played by default)
 ├── playlist_1.json           # All 16 animal levels
 ├── playlist_2.json           # Shorter animal playlist (5 levels)
-├── highscores.json           # Top 5 leaderboard
+├── highscores.json           # Top 5 leaderboard (created after the first game)
 └── pose_landmarker_lite.task # MediaPipe pose model (downloaded by test.py)
 ```
 

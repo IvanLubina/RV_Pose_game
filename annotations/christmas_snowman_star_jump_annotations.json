@@ -1,0 +1,50 @@
+{
+  "image": "christmas_snowman_star_jump.png",
+  "landmarks": {
+    "0": {
+      "x": 0.5,
+      "y": 0.22,
+      "name": "Nose"
+    },
+    "11": {
+      "x": 0.57,
+      "y": 0.35,
+      "name": "Left Shoulder"
+    },
+    "12": {
+      "x": 0.43,
+      "y": 0.35,
+      "name": "Right Shoulder"
+    },
+    "15": {
+      "x": 0.7,
+      "y": 0.17,
+      "name": "Left Wrist"
+    },
+    "16": {
+      "x": 0.3,
+      "y": 0.17,
+      "name": "Right Wrist"
+    },
+    "23": {
+      "x": 0.54,
+      "y": 0.6,
+      "name": "Left Hip"
+    },
+    "24": {
+      "x": 0.46,
+      "y": 0.6,
+      "name": "Right Hip"
+    },
+    "27": {
+      "x": 0.63,
+      "y": 0.9,
+      "name": "Left Ankle"
+    },
+    "28": {
+      "x": 0.37,
+      "y": 0.9,
+      "name": "Right Ankle"
+    }
+  }
+}
