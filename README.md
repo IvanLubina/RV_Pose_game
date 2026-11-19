@@ -130,7 +130,7 @@ Level files are looked up in `annotations/` and `annotations_animals/`, and imag
 ```text
 ├── annotations/              # annotate.py saves levels here (9 Christmas levels)
 ├── annotations_animals/      # 16 animal levels used by the playlists
-├── images/                   # Images for annotate.py and the Christmas levels
+├── images/                   # Images for annotate.py and the Christmas levels (original drawings)
 │   └── animals/              # Images for the animal levels
 ├── test.py                   # Camera and model check, downloads the model
 ├── annotate.py               # Level editor
